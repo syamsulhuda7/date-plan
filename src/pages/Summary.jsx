@@ -32,27 +32,27 @@ export const Summary = () => {
   };
 
   const breakfastOptions = {
-    gadogado: { label: 'Gado-gado', image: 'gif/gado.jpg' },
-    pecel: { label: 'Pecel', image: 'gif/pecel.jpg' },
-    nasikuning: { label: 'Nasi Kuning', image: 'gif/kuning.jpg' },
-    nasipadang: { label: 'Nasi Padang', image: 'gif/padang.jpeg' },
+    gadogado: { label: 'Gado-gado', image: '/gif/gado.jpg' },
+    pecel: { label: 'Pecel', image: '/gif/pecel.jpg' },
+    nasikuning: { label: 'Nasi Kuning', image: '/gif/kuning.jpg' },
+    nasipadang: { label: 'Nasi Padang', image: '/gif/padang.jpeg' },
   };
   const mainactivityOptions = {
-    movie: { label: 'Movie', image: 'gif/movie.jpg' },
-    indoorcafe: { label: 'Indoor Cafe', image: 'gif/indoorcafe.jpg' },
-    outdoorcafe: { label: 'Outdoor Cafe', image: 'gif/outdoorcafe.webp' },
-    beach: { label: 'Beach', image: 'gif/pantaigemah.jpg' },
+    movie: { label: 'Movie', image: '/gif/movie.jpg' },
+    indoorcafe: { label: 'Indoor Cafe', image: '/gif/indoorcafe.jpg' },
+    outdoorcafe: { label: 'Outdoor Cafe', image: '/gif/outdoorcafe.webp' },
+    beach: { label: 'Beach', image: '/gif/pantaigemah.jpg' },
   };
   const movieOptions = {
-    lembayung: { label: 'Lembayung', image: 'gif/lembayung.webp' },
-    homesweetloan: { label: 'Home Sweet Loan', image: 'gif/homesweet.webp' },
-    kuasagelap: { label: 'Kuasa Gelap', image: 'gif/kuasagelap.jpg' },
-    lauttengah: { label: 'Laut Tengah', image: 'gif/lauttengah.jpeg' },
+    lembayung: { label: 'Lembayung', image: '/gif/lembayung.webp' },
+    homesweetloan: { label: 'Home Sweet Loan', image: '/gif/homesweet.webp' },
+    kuasagelap: { label: 'Kuasa Gelap', image: '/gif/kuasagelap.jpg' },
+    lauttengah: { label: 'Laut Tengah', image: '/gif/lauttengah.jpeg' },
   };
   const afternoonOptions = {
-    gacoan: { label: 'Gacoan', image: 'gif/gacoan.jpg' },
-    indoorcafe: { label: 'Indoor Cafe', image: 'gif/indoorcafe.jpg' },
-    outdoorcafe: { label: 'Outdoor Cafe', image: 'gif/outdoorcafe.webp' },
+    gacoan: { label: 'Gacoan', image: '/gif/gacoan.jpg' },
+    indoorcafe: { label: 'Indoor Cafe', image: '/gif/indoorcafe.jpg' },
+    outdoorcafe: { label: 'Outdoor Cafe', image: '/gif/outdoorcafe.webp' },
   };
 
   const handleSubmit = () => {
@@ -74,7 +74,7 @@ export const Summary = () => {
         {data.breakfast && breakfastOptions[data.breakfast] && (
           <div className="relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500">
             <img
-              className="w-40 h-32 object-cover"
+              className="w-40 lg:w-72 h-32 lg:h-52 object-cover"
               src={breakfastOptions[data.breakfast].image}
               alt={breakfastOptions[data.breakfast].label}
             />
@@ -88,7 +88,7 @@ export const Summary = () => {
         {data.mainactivity && mainactivityOptions[data.mainactivity] && (
           <div className="relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500">
             <img
-              className="w-40 h-32 object-cover"
+              className="w-40 lg:w-72 h-32 lg:h-52 object-cover"
               src={mainactivityOptions[data.mainactivity].image}
               alt={mainactivityOptions[data.mainactivity].label}
             />
@@ -102,7 +102,7 @@ export const Summary = () => {
         {data.movie && movieOptions[data.movie] && (
           <div className="relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500">
             <img
-              className="w-36 h-48 object-cover"
+              className="w-36 lg:w-48 h-48 lg:h-72 object-cover"
               src={movieOptions[data.movie].image}
               alt={movieOptions[data.movie].label}
             />
@@ -116,7 +116,7 @@ export const Summary = () => {
         {data.afternoon && afternoonOptions[data.afternoon] && (
           <div className="relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500">
             <img
-              className="w-40 h-32 object-cover"
+              className="w-40 lg:w-72 h-32 lg:h-52 object-cover"
               src={afternoonOptions[data.afternoon].image}
               alt={afternoonOptions[data.afternoon].label}
             />

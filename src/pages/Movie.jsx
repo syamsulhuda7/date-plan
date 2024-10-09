@@ -25,19 +25,19 @@ export const Movie = () => {
         <h1 className="text-3xl text-center font-bold mb-20 px-7 py-5 mx-4 rounded-xl  bg-fuchsia-700 text-white">MAU NONTON APAAA???</h1>
         <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-10">
           <div onClick={handleChoose("lembayung")} className={`${isChoose && choose !== "lembayung" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="gif/lembayung.webp" alt="" />
+            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="/gif/lembayung.webp" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Lembayung</p>
           </div>
           <div onClick={handleChoose("homesweetloan")} className={`${isChoose && choose !== "homesweetloan" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="gif/homesweet.webp" alt="" />
+            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="/gif/homesweet.webp" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Home Sweet Loan</p>
           </div>
           <div onClick={handleChoose("kuasagelap")} className={`${isChoose && choose !== "kuasagelap" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="gif/kuasagelap.jpg" alt="" />
+            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="/gif/kuasagelap.jpg" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Kuasa Gelap</p>
           </div>
           <div onClick={handleChoose("lauttengah")} className={`${isChoose && choose !== "lauttengah" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="gif/filmlauttengah.jpg" alt="" />
+            <img className="w-36 lg:w-48 h-48 lg:h-72 object-cover" src="/gif/filmlauttengah.jpg" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Laut Tengah</p>
           </div>
         </div>

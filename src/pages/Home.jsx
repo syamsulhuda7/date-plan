@@ -56,7 +56,7 @@ export const Home = () => {
     {popUpGif && 
     <div className="absolute top-0 left-0 w-screen h-screen backdrop-blur-md bg-black/30">
     <div className="absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
-      <img src="gif/happy.gif" alt="" />
+      <img src="/gif/happy.gif" alt="" />
       <div className="text-center lg:text-4xl">YEEAAYYY... Let&apos;s goooo... {count}</div>
     </div>
     </div>

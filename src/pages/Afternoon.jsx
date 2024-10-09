@@ -30,15 +30,15 @@ export const Afternoon = () => {
         <h1 className="text-3xl text-center font-bold mb-20 px-7 py-5 mx-4 rounded-xl bg-fuchsia-700 text-white">TERUS NGAPAIN LAGIII???</h1>
         <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-10">
           <div onClick={handleChoose("gacoan")} className={`${isChoose && choose !== "gacoan" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500`}>
-            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/gacoan.jpg" alt="" />
+            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/gacoan.jpg" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Gacoan</p>
           </div>
           <div onClick={handleChoose("indoorcafe")} className={`${isChoose && choose !== "indoorcafe" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500`}>
-            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/indoorcafe.jpg" alt="" />
+            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/indoorcafe.jpg" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Indoor Cafe</p>
           </div>
           <div onClick={handleChoose("outdoorcafe")} className={`${isChoose && choose !== "outdoorcafe" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden shadow-md shadow-slate-500`}>
-            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/outdoorcafe.webp" alt="" />
+            <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/outdoorcafe.webp" alt="" />
             <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Outdoor Cafe</p>
           </div>
         </div>

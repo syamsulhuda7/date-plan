@@ -32,19 +32,19 @@ export const MainActivity = () => {
             <h1 className="text-3xl text-center font-bold mb-20 px-7 py-5 mx-4 rounded-xl bg-fuchsia-700 text-white">MAU LANJUT NGAPAIN???</h1>
             <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-8">
         <div onClick={handleChoose("movie")} className={`${isChoose && choose !== "movie" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/movie.jpg" alt="" />
+          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/movie.jpg" alt="" />
           <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Movie</p>
         </div>
         <div onClick={handleChoose("indoorcafe")} className={`${isChoose && choose !== "indoorcafe" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/indoorcafe.jpg" alt="" />
+          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/indoorcafe.jpg" alt="" />
           <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Indoor Cafe</p>
         </div>
         <div onClick={handleChoose("outdoorcafe")} className={`${isChoose && choose !== "outdoorcafe" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/outdoorcafe.webp" alt="" />
+          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/outdoorcafe.webp" alt="" />
           <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Outdoor Cafe</p>
         </div>
         <div onClick={handleChoose("beach")} className={`${isChoose && choose !== "beach" ? "opacity-50" : "opacity-100 scale-105"} hover:scale-105 transition-all cursor-pointer ease-in-out duration-200 relative flex flex-col justify-center items-center rounded-xl overflow-hidden`}>
-          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="gif/pantaigemah.jpg" alt="" />
+          <img className="w-40 lg:w-72 h-32 lg:h-52 object-cover" src="/gif/pantaigemah.jpg" alt="" />
           <p className="absolute bottom-0 w-full bg-slate-900 bg-opacity-30 text-center text-white">Beach</p>
         </div>
       </div>
