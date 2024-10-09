@@ -40,14 +40,14 @@ export const Home = () => {
     <button
       onClick={handleNext}
         style={{ width: 250 * mau + 'px',maxWidth: screen.width-10 , height: 150 * mau + 'px', fontSize: 25 * mau + 'px' }}
-        className="bg-emerald-600 rounded-xl"
+        className="bg-fuchsia-800 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl"
       >
         {gamau < 0.1 ? "HARUS MAU!😡😠" : "MAUUU"}
       </button>
       <button
         onClick={handleGamau}
         style={{ width: 250 * gamau + 'px', height: 150 * gamau + 'px', fontSize: 25 * gamau + 'px'  }}
-        className={`${gamau < 0.1 && "hidden"} bg-red-600 rounded-xl`}
+        className={`${gamau < 0.1 && "hidden"} bg-fuchsia-500 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl`}
       >
         GAMAU
       </button>
