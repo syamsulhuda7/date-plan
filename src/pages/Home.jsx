@@ -40,14 +40,14 @@ export const Home = () => {
     <button
       onClick={handleNext}
         style={{ width: 250 * mau + 'px',maxWidth: screen.width-10 , height: 150 * mau + 'px', fontSize: 25 * mau + 'px' }}
-        className="bg-fuchsia-800 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl"
+        className="px-3 bg-fuchsia-800 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl"
       >
-        {gamau < 0.1 ? "HARUS MAU!!! 😡 😠" : "MAUUU"}
+        {gamau < 0.1 ? "MAU YA PLISSS 🥹🥺" : "MAUUU"}
       </button>
       <button
         onClick={handleGamau}
         style={{ width: 250 * gamau + 'px', height: 150 * gamau + 'px', fontSize: 25 * gamau + 'px'  }}
-        className={`${gamau < 0.1 && "hidden"} bg-fuchsia-500 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl`}
+        className={`${gamau < 0.1 && "hidden"} px-3 bg-fuchsia-500 hover:scale-105 transition-all ease-in-out duration-200 text-white rounded-xl`}
       >
         GAMAU
       </button>
@@ -57,7 +57,7 @@ export const Home = () => {
     <div className="absolute top-0 left-0 w-screen h-screen backdrop-blur-md bg-black/30">
     <div className="absolute top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
       <img src="/gif/happy.gif" alt="" />
-      <div className="text-center lg:text-4xl">YEEAAYYY... Let&apos;s goooo... {count}</div>
+      <div className="text-center text-white lg:text-4xl">YEEAAYYY... Let&apos;s goooo... {count}</div>
     </div>
     </div>
     }

@@ -130,7 +130,7 @@ export const Summary = () => {
         {/* Suggestion */}
         {data.suggestion && (
           <div className="bg-fuchsia-400 px-5 py-3 mt-10 flex flex-col justify-center items-center rounded-xl shadow-md shadow-slate-500">
-              Suggestion : {data.suggestion}
+              Saran : {data.suggestion}
           </div>
         )}
       <button onClick={handleSubmit} className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-center mt-7">Let&apos;s go</button>

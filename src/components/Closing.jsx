@@ -9,7 +9,7 @@ export const Closing = ({setClose}) => {
             <img className="w-40 lg:w-72" src="gif/go3.gif" alt="" />
         </div> 
         <div className="bg-white rounded-xl px-5 py-3 mx-5 mt-10 text-xl text-center">
-        Take a screenshot of the SUMMARY and send it to your lovely boyfriend 🥰🥰🥰
+        Take a screenshot of the SUMMARY and send it to your lovely boyfriend. See you on weekend 🥰🥰🥰
         </div>
     </div>
   )
